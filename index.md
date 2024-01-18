@@ -6,7 +6,7 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 #
 layout: home
-title: Math 207 Differentil Equations and Linear Algebra
+title: Math 207 Differential Equations and Linear Algebra
 ---
 
 **Instructor:** Dr. W. Riley Casper [(About your instructor)](instructor)

@@ -23,7 +23,7 @@ permalink: /extras/syllabus
 * Location: MH 501 Computer Lab
 
 ## Course catalog description
-Solutions to differential equations and systems of differential equations. Role of linear algebra in solving differential equations. Introduction of vector spaces, bases, eigenvalues. Modeling using modern computing software.Â . 
+Solutions to differential equations and systems of differential equations. Role of linear algebra in solving differential equations. Introduction of vector spaces, bases, eigenvalues. Modeling using modern computing software.
 **Course prerequisites:** MATH 107 with a "C" (2.0) or better; MATH 106 or MATH 150B with a "C" (2.0) or better.
 
 ## Course Material

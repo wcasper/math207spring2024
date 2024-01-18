@@ -13,25 +13,24 @@ permalink: /extras/syllabus
 
 **Office hourse:** TBA.  Additional office hours are always available by request.
 
-**Course website:** we will use Canvas website (Spring 2023 MATH 407-1 18421), but will link additional information from a corresponding <a target="_parent" href="https://wcasper.github.io/math430spring2023">Github Pages site (link)</a> which you may find more convenient for pulling material.
+**Course website:** we will use Canvas website (Spring 2024 MATH 207-1 10233), but will link additional information from a corresponding <a target="_parent" href="https://wcasper.github.io/math207spring2024">Github Pages site (link)</a> which you may find more convenient for pulling material.
 
 ## Course meeting information
 * Section: 01
-* Course ID: 19501
-* Time: MW 10:00AM-11:50AM
-* Meeting Dates: 08/21/2023-12/15/2023
-* Location: MH 464
+* Course ID: 10233
+* Time: TTh 10:00AM-11:50AM
+* Meeting Dates: 01/22/2024-05/15/2024
+* Location: MH 501 Computer Lab
 
 ## Course catalog description
-Development of the theoretical foundations of calculus with an emphasis on mathematical rigor and formal proof. Algebraic and topological properties of the real numbers; limits of sequences and functions; continuity, differentiation and integration of functions of one variable; infinite series.
-
-**Course prerequisites:** MATH 250B and MATH 280 with a "C" (2.0) or better.
+Solutions to differential equations and systems of differential equations. Role of linear algebra in solving differential equations. Introduction of vector spaces, bases, eigenvalues. Modeling using modern computing software.Â . 
+**Course prerequisites:** MATH 107 with a "C" (2.0) or better; MATH 106 or MATH 150B with a "C" (2.0) or better.
 
 ## Course Material
 ### Required Textbooks
 The textbook for this course is:
 
-1. *Elementary Analysis* by Kenneth A. Ross 2nd Ed.
+1. *Differential Equations and Linear Algebra* by Stephen Goode and Scott Annin 4th Ed.
 
 ### Required technology
 For this course, you will need to have access to technology that will allow you to join Zoom office hours, and view and upload assignments on Canvas.
@@ -107,49 +106,38 @@ Exams will take place during class at the times stated below. You will come to c
 If you have an accommodation from Disability Support Services (such as time-and-a-half), it is your responsibility to coordinate with the instructor before each exam.
 
 **Midterm Exams**
-There will be three midterm exams, each lasting 1 hour.
+There will be two midterm exams, each lasting 1 hour and 50 minutes.
 Each midterm will be worth 15\% of your final grade.
 Midterms will be held during class time on the following dates:
-* Wednesday, September 20, 2023
-* Wednesday, October 18, 2023
-* Wednesday, November 15, 2023
+* Wednesday, February 22, 2023
+* Wednesday, March 28, 2023
 
 **Final Exam**
 The final exam will be cumulative and will account for 30\% of your grade.
 It will be held
-* Monday, December 11 from 11AM-12:50PM
+* Tuesday, May 14th from 9AM-10:50AM
 
 ## Important academic calendar dates
-**August:**
-* 18th: Last day to register without paying $25 Registration Late Fee
-  Last day to receive full refund of resident and non-resident mandatory fees
-* 19th: First day of class
-* 27th: Last day students are enrolled from the waitlist
-* 19th – 27th: Students must add/drop classes through Student Homepage
-* 28th – Sep. 5th : Department permit is required to add all classes
-
-**September:**
-* 3rd: Last day to apply for graduation for Fall 2023
-* 5th: Last day to add/drop classes without a grade of “W” through Student Homepage
- All permits issued expire at midnight
- Last day to declare audit and change grading basis
-* 6th: Add Classes-Submit the online Late Add Request with a $20 Late Add Fee
- Withdrawal Classes-Submit the online Withdrawal Request with “W” grade
-* 18th: Census Date
- Last day to submit a Late Add Request with $20 Late Add Fee
- Last day for Excess Unit Approval for graduating seniors
- Last day for departments to approve undergraduate candidacy for FA 23
-
-**October:**
-*  1st: Last day to apply for Spring 2024 graduation to receive priority registration
-* 15th: Last day for undergraduate students to pay $115 graduation fee for Fall 2023
-* 27th: Last day to receive a pro-rated refund from withdrawn classes
-
-**November:**
-* 13th: Last day to submit withdrawal request with “W” grade for non-medical reason.
-
-**December:**
-* 1st: Last day to submit a withdrawal request with “W” grade for medical reasons
+**January:**
+* 01/20/24	Spring 2024 classes begin
+* 01/25/24	Spring 2024 Titan C payment deadline
+* 01/26/24	Spring 2024 Prepay due prior to enrollment
+**February:**
+* 02/05/24	Last day for refund if status reduced from
+* full-time to part-time for Spring 2024
+* 02/05/24	Last day to apply for TIPP for Spring 2024
+* 02/12/24	Spring 2024 TIPP payment deadline #2
+* 02/13/24	Non-Financial Aid (Cash) refunds for Spring 2024 begins
+* 02/19/24	Campus closed for President's Day
+* 02/20/24	Census date for Spring 2024
+* 02/20/24	Last day to drop a class with a grade of "W" and receive a 65% refund.
+**April:**
+* 04/01/2024	Campus closed for Cesar Chavez Day
+* 04/01/24 to
+* 04/07/24	Spring 2024 recess - No classes
+* 04/19/24	LAST DAY FOR WITHDRAWAL with a grade of "W" for serious and compelling reasons only.
+**May:**
+* 05/17/24	Last day of final exams for Spring 2024
 
 ## Academic integrity
 Students who violate university standards of academic integrity are subject to disciplinary sanctions, including failure in the course and suspension from the university. Since dishonesty in any form harms the individual, other students, and the university, policies on academic integrity are strictly enforced. Examples of academic dishonesty include, but are not limited to:

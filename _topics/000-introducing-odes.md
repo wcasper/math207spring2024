@@ -81,6 +81,8 @@ A stereotypical example of this kind of problem is when one or more streams of w
 The water entering the tank is polluted with salt or something and a well-mixed solution exits.
 Our goal is then to measure something, like the density of salt exiting the tank or the total mass of salt in the tank as time changes.
 
+
+
 # Second order equations
 
 Naturally, we will next be concerned with second-order differential equations, ie. equations that can be expressed in the form
@@ -95,6 +97,8 @@ For example, with **second-order linear** differential equations, we will want t
 
 $$a(x)y'' + b(x)y' + c(x)y = f(x).$$
 
+<p align="center"><img width=200 src="fig/mass-spring.png"/></p>
+
 ## LCR circuits and mass-spring systems
 
 The simplest example of a second-order ODE that arises is a differential equation governing the motion of a mass-spring system with mass $$m$$, spring constant $$k$$, and friction force $$\gamma$$:
@@ -108,11 +112,13 @@ $$LQ'' + RQ' + \frac{1}{C}Q = 0,$$
 
 for $$L, R$$, and $$C$$ the inductance, resistence, and capacitance respectively.
 
+<p align="center"><img width=200 src="fig/lcr-circuit.png"/></p>
+
 ## Pendulum
 
 As a more complicated example of a second-order differential equation, we can consider the motion of a pendulum of length $$L$$, which satisfies the differential equation
 
-$$\frac{d^2\theta}{dt^2}+ \frac{g}{L}\sin(\theta) = ,$$
+$$\frac{d^2\theta}{dt^2}+ \frac{g}{L}\sin(\theta) = 0,$$
 
 where here $$\theta$$ is the angle from the vertical and $$g$$ is the acceleration due to gravity.
 Notice that this is our first example of a **second-order nonlinear equation**, since it is not a linear equation.

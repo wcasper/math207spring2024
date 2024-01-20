@@ -151,7 +151,7 @@ A collection of two pendulums connected together forms an incredibly intricate e
 If their masses are $$m_1$$ and $$m_2$$, and their lengths are $$L_1$$ and $$L_2$$, the angles of each pendulum from the vertical satisfy the system of equations.
 
 $$\begin{align*}
-\theta_1'' &= \frac{-g(2m_1 + m_2)\sin\theta_1 - m_2g\sin(\theta_1-2\theta_2) - 2\sin(\theta_1-\theta_2)m_2((\theta_2')^2L_2 + (\theta_1')^2)L_1\cos(\theta_1-\theta_2))}{L_1(2m_1+m_2 -m_2\cos(2\theta_1-2\theta_2))}\\
+\theta_1'' &= \frac{-g(2m_1 + m_2)\sin\theta_1 - m_2g\sin(\theta_1-2\theta_2) - 2\sin(\theta_1-\theta_2)m_2((\theta_2')^2L_2 + (\theta_1')^2L_1\cos(\theta_1-\theta_2))}{L_1(2m_1+m_2 -m_2\cos(2\theta_1-2\theta_2))}\\
 \theta_1'' &= \frac{2\sin(\theta_1-\theta_2)((\theta_1')^2L_1(m_1+m_2) + g(m_1+m_2)\cos\theta_1 + (\theta_2')^2L_2m_2\cos(\theta_1-\theta_2))}{L_2(2m_1+m_2-m_2\cos(2\theta_1-2\theta_2))}
 \end{align*}$$
 

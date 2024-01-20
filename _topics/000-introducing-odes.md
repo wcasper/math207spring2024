@@ -140,7 +140,7 @@ is a solution.
 
 A collection of two pendulums connected together forms an incredibly intricate example of a system of second-order differential equations.
 
-<p align="center"><img width=400 src="fig/double-pendulum.png"/></p>
+<p align="center"><img width=200 src="fig/double-pendulum.png"/></p>
 
 If their masses are $$m_1$$ and $$m_2$$, and their lengths are $$L_1$$ and $$L_2$$, the angles of each pendulum from the vertical satisfy the system of equations.
 

@@ -16,6 +16,7 @@ $$y' = y$$
 expresses a relationship between an unknown function $$y$$ and its first derivative $$y'$$, specifically saying that they are equal.
 A **solution** of a differential equation is a value of the unknown function $$y$$ which satisfies the equation.
 In this case for example, $$y=e^x$$ would solve the equation.
+
 :warning: This is not the only solution!  For example $$y=2e^x$$ is also a solution.
 
 
@@ -23,7 +24,7 @@ A good part of this course will revolve around methods to solve these equations,
 Half of this course will also discuss fundamentals of linear algebra and their important applications to differential equations.
 
 Of course, differential equations involve derivatives.
-Notationally, there are many different ways of expressing derivatives and in practice we will use many of these interchangeably.  For example $$f'(x)$$, $$\frac{df}{dx}$$, $$\frac{d}{dx}f$$ and $$Df$$ will all be ways that we express derivatives.
+Notationally, there are many different ways of expressing derivatives and in practice we will use many of these interchangeably.  For example $$f'(x)$$, $$\frac{df}{dx}$$, $$\frac{d}{dx}f$$, $$\dot f$$, and $$Df$$ will all be ways that we express derivatives.
 
 Differential equations arise naturally in all kinds of places, from physical systems, to population dynamics in biology, to pure mathematics.
 We demonstrate this with several key examples below.

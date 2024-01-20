@@ -14,10 +14,11 @@ For example, the equation
 $$y' = y$$
 
 expresses a relationship between an unknown function $$y$$ and its first derivative $$y'$$, specifically saying that they are equal.
-A **solution** of a differential equation is a value of the unknown function $$y$$ which satisfies the equation.
+A **particular solution** (or just **solution**) of a differential equation is a value of the unknown function $$y$$ which satisfies the equation.
 In this case for example, $$y=e^x$$ would solve the equation.
 
 :warning: This is not the only solution!  For example $$y=2e^x$$ is also a solution.
+Often times we will be interested in the **general solution**, of an equation which is a family of solutions parameterized by one or more constants, which represent *all* possible solutions for the equation.  The general solution of the previous equation is $$y=Ce^x$$ for some constant $$C$$.
 
 
 A good part of this course will revolve around methods to solve these equations, or at least represent their solutions as infinite series, along with numerical methods of approximating solutions.

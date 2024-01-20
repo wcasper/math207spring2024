@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Introducing Ordinary Differential Equations
+title: Introducing ODEs
 ---
 
 # Basic Examples of ODEs

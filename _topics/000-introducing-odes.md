@@ -97,7 +97,7 @@ For example, with **second-order linear** differential equations, we will want t
 
 $$a(x)y'' + b(x)y' + c(x)y = f(x).$$
 
-<p align="center"><img width=200 src="fig/mass-spring.png"/></p>
+<p align="center"><img width=400 src="fig/mass-spring.png"/></p>
 
 ## LCR circuits and mass-spring systems
 
@@ -112,7 +112,7 @@ $$LQ'' + RQ' + \frac{1}{C}Q = 0,$$
 
 for $$L, R$$, and $$C$$ the inductance, resistence, and capacitance respectively.
 
-<p align="center"><img width=200 src="fig/lcr-circuit.png"/></p>
+<p align="center"><img width=400 src="fig/lcr-circuit.png"/></p>
 
 ## Pendulum
 

@@ -128,6 +128,26 @@ Notice, each curve is always tangent to the slope field at each point.
 <p align="center"><img width=600 src="fig/001-curves1.png"/></p>
 
 
+## Existence and uniqueness
+
+For any slope field, it seems to be the case that there are all kinds of integral curves, so any differential equation seems to have lots and lots of solutions.
+What distinguishes one solution from another is an **initial condition**, where we specify a value that we want the solution $$y$$ to have at a particular $$x$$ value.
+Equivalently, we specify a point we want our curve to pass through.
+A differential equation, combined with an initial condition
+
+$$y' = f(x,y),\ \ y(x_0) = y_0,$$
+
+is called an **initial value problem**.
+A fundamental question that arises in the study of differential equations is whether a particular initial value problem has a solution, and whether or not that solution is unique.
+In the case that an initial value problem has a unique solution for some range of $$x$$-values around $$x_0$$, the problem is called **well-posed**.
+Picard's Theorem gives us a sufficient condition for first order equations being well-posed.
+
+**Picard's Theorem:**  Suppose that $$f(x,y)$$ and $$\frac{\partial f}{\partial y}$$ are both continuous in some rectangle $$R$$ containing the point $$(x_0,y_0)$$.
+Then there exists an interval $$I$$ containing $$x_0$$ on which the initial value problem stated above has a unique solution.
+
+Intuitively, this means that when our leaf touches down on the surface of the lake, the way it will move will be completely determined! At least for a little while...
+Geometrically, this means that the integral curves we were drawing above can never intersect, except at points where $$f$$ or $$\partial f/\partial y$$ have discontinuities.
+
 ### Additional resources
 
 The MATLAB script used to generate above images can be found here:

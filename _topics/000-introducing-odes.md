@@ -54,8 +54,10 @@ We demonstrate this with several key examples below.
 
 The kinds of differential equations that we can solve analytically (by which we mean without a computer) are very special.
 As such, it is entirely possible to go through an entire class on differential equations with the impression that the topic is a "bag of tricks".
+It's **not**.
+
 In reality, the kinds of differential equations that we are able to solve, such as separable equations, linear differential equations with constant coefficients, exact equations, or nonlinear homogeneous equations, are the ones that exhibit invariants under transformations.
-In other words, they have a high degree of symmetry.
+In other words, they have a high degree of symmetry, and these symmetries indicate how the equation should be solved.
 
 For example, the equation
 
@@ -118,13 +120,14 @@ For example, with **second-order linear** differential equations, we will want t
 
 $$a(x)y'' + b(x)y' + c(x)y = f(x).$$
 
-<p align="center"><img width=400 src="fig/mass-spring.png"/></p>
 
 ## LCR circuits and mass-spring systems
 
 The simplest example of a second-order ODE that arises is a differential equation governing the motion of a mass-spring system with mass $$m$$, spring constant $$k$$, and friction force $$\gamma$$:
 
 $$my'' + \gamma y' + ky = 0.$$
+
+<p align="center"><img width=500 src="fig/mass-spring.png"/></p>
 
 A related equation arises in electrical engineering.
 If we hook a resistor, inductor, and capacitor in serial, then the charge $$Q$$ on the capacitor satisfies the second-order differential equation

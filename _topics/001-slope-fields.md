@@ -23,6 +23,13 @@ is given by
 
 <p align="center"><img width=600 src="fig/001-field1.png"/></p>
 
+Likewise, the slope field for the equation
+
+$$y' = 1 + xy^2$$
+
+is given by
+
+<p align="center"><img width=600 src="fig/001-field2.png"/></p>
 
 ## Examples
 

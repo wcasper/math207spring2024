@@ -116,6 +116,16 @@ The next theorem summarizes this observation.
 
 **Theorem:** Integral curves are graphs of solutions!
 
+In particular, even when we can't actually solve the differential equation analytically, we can still get a good picture of what the solutions look like using slope fields.
+This also suggests an important numerical method for numerically approximating solutions of first-order ODEs, which we will discuss later on.
+
+For the second differential equation whose slope field is featured above, explicit solutions involve Airy functions of the first and second kind.
+Even so, we can explicitly obtain solution curves by numerical means.
+The results are pictured below.
+Notice, each curve is always tangent to the slope field at each point.
+
+<p align="center"><img width=600 src="fig/001-curves1.png"/></p>
+
 
 ### Additional resources
 

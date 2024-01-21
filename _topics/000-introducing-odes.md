@@ -104,8 +104,6 @@ A stereotypical example of this kind of problem is when one or more streams of w
 The water entering the tank is polluted with salt or something and a well-mixed solution exits.
 Our goal is then to measure something, like the density of salt exiting the tank or the total mass of salt in the tank as time changes.
 
-
-
 # Second order equations
 
 Naturally, we will next be concerned with second-order differential equations, ie. equations that can be expressed in the form
@@ -147,9 +145,12 @@ $$\frac{d^2\theta}{dt^2}+ \frac{g}{L}\sin(\theta) = 0,$$
 where here $$\theta$$ is the angle from the vertical and $$g$$ is the acceleration due to gravity.
 Notice that this is our first example of a **second-order nonlinear equation**, since it is not a linear equation.
 
-## Systems of differential equations
+# Systems of differential equations
 
 We will also be interested in solutions of **systems of differential equations**, where we are trying to find a collection of functions which satisfy a collection of differentil equations *simultaneously*.
+
+
+### A basic example
 
 For example, the following is a system of differential equations
 
@@ -165,6 +166,19 @@ $$y_1 = \cos(t),\ \ y_2 = \sin(t)$$
 
 is a solution.
 
+### Universality of first-order systems
+
+As we will explore later, any differential equation or system of differential equtions can be expressed as a system of first-order differential equations.
+For example, consider the second-order differential equation
+
+$$y'' + 2y' + y = 0.$$
+
+If we define $$y_1 = y$$ and $$y_2 = y_1'$$, then the second order equation above is equivalent to the system of first-order equations
+
+$$\begin{align*}
+y_1' &= y_2,\\
+y_2' &= -y_1 -2y_2.
+\end{align*}$$
 
 ## Double pendulum
 

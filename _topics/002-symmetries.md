@@ -90,7 +90,7 @@ $$\frac{dv}{du} = \frac{0 + Cy'}{C + 0y'} = y'.$$
 
 Using our original differential equation, this gives
 
-\frac{dv}{du} = y' = \sin(y/x) = \sin(v/u).$$
+$$\frac{dv}{du} = y' = \sin(y/x) = \sin(v/u).$$
 
 So the new ODE is the same as the old one:
 

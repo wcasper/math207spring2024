@@ -103,6 +103,10 @@ This makes the aboove transformation a symmetry of the differential equation for
 <p align="center"><img width=800 src="fig/002-field2.png"/></p>
 
 
+### Additional resources
+
+The MATLAB script used to generate above images can be found here:
+* [topic_002_symmetry.m](matlab/topic_002_symmetry.m)
 
 
 

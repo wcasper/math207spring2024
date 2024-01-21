@@ -69,11 +69,13 @@ $$\frac{dv}{du} = uv.$$
 
 This makes the aboove transformation a symmetry of the differential equation for each value of $$C$$.
 
+<p align="center"><img width=800 src="fig/002-field1.png"/></p>
+
 **Example 2:**
 
 As a second example, consider the ODE
 
-$$y' = \sin(y/x).$$
+$$y' = \exp(y/x).$$
 
 Let $$C$$ be a nonzero constant and consider the change of coordinates
 
@@ -90,12 +92,17 @@ $$\frac{dv}{du} = \frac{0 + Cy'}{C + 0y'} = y'.$$
 
 Using our original differential equation, this gives
 
-$$\frac{dv}{du} = y' = \sin(y/x) = \sin(v/u).$$
+$$\frac{dv}{du} = y' = \exp(y/x) = \exp(v/u).$$
 
 So the new ODE is the same as the old one:
 
-$$\frac{dv}{du} = \sin(v/u).$$
+$$\frac{dv}{du} = \exp(v/u).$$
 
 This makes the aboove transformation a symmetry of the differential equation for each value of $$C$$.
+
+<p align="center"><img width=800 src="fig/002-field1.png"/></p>
+
+
+
 
 

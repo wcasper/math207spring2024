@@ -97,6 +97,7 @@ Intuitively, we can think about the slope field as the surface of a big pond.
 The dashes indicate the direction the water is moving at each point.
 So if a leaf falls into the pond at a particular point, it'll move in the direction of the current at each moment in time.
 In this way it traces out the path of an integral curve.
+
 :warning: This isn't quite right, since it ignores momentum.  However, if this are moving slowly enough it's a pretty accurate picture!
 
 The equation of an integral curve *defines* a solution of the differential equation.

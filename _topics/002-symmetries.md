@@ -32,7 +32,7 @@ $$\frac{dv}{du} = \frac{h_x(x,y) + h_y(x,y)y'}{g_x(x,y) + g_y(x,y)y'}.\quad\quad
 
 This means that algebraically, a symmetry must satisfy the equation
 
-$$\frac{h_x(x,y) + h_y(x,y)y'}{g_x(x,y) + g_y(x,y)y'} = f(g(x,y),h(x,y)).$$
+$$\frac{h_x(x,y) + h_y(x,y)f(x,y)}{g_x(x,y) + g_y(x,y)f(x,y)} = f(g(x,y),h(x,y)).$$
 
 This is an example of a **nonlinear partial differential equation**.
 Usually, these kinds of equations are very, very, *very* difficult to solve, so in practice symmetries are detected in other ways.

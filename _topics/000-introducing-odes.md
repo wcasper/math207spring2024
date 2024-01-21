@@ -8,29 +8,49 @@ title: Introducing ODEs
 ## What this course is about
 
 An **ordinary differential equation** (ODE) is a differential equation which defines a relationship between a function and its **derivatives**.
-In this class we will explore the theory of diffential equations, focusing in particular on first order ODEs, $$n$$'th order ODEs with a constant coefficients, and systems of differential equations.
+The most general form of a differential equation is
+
+$$F(x,y,y',y'',y''',\dots,y^{(n-1)},y^{(n)}) = 0,$$
+
+for some function $$F$$ of the $$n+2$$ variables.
+The highest power of $$n$$ appearing in this equation is called the **order** of the differential equation.
+However, more often then not an $$n$$'th order differential equation is instead expressed as
+
+$$y^{(n)} = f(x,y,y',y'',y''',\dots,y^{(n-1)}),$$
+
+for some function $$f$$ of $$n+1$$ variables.  Jumping from the general form to this form is possible under fairly broad assumptions due to the **Implicit Function Theorem**.
+
+### A first example
 For example, the equation
 
 $$y' = y$$
 
-expresses a relationship between an unknown function $$y$$ and its first derivative $$y'$$, specifically saying that they are equal.
+is a differential equation and expresses a relationship between an unknown function $$y$$ and its first derivative $$y'$$, specifically saying that they are equal.
 A **particular solution** (or just **solution**) of a differential equation is a value of the unknown function $$y$$ which satisfies the equation.
 In this case for example, $$y=e^x$$ would solve the equation.
 
 :warning: This is not the only solution!  For example $$y=2e^x$$ is also a solution.
 Often times we will be interested in the **general solution**, of an equation which is a family of solutions parameterized by one or more constants, which represent *all* possible solutions for the equation.  The general solution of the previous equation is $$y=Ce^x$$ for some constant $$C$$.
 
+### Kinds of equations
+In this class we will explore the theory of diffential equations in general, along with **systems of differential equations**.
+However, we will have a particular focus on certain kinds of differential equations, such as:
+* separable equations
+* first-order exact equations
+* first-order homogeneous equations, and
+* linear differential equations with constant coefficients
 
 A good part of this course will revolve around methods to solve these equations, or at least represent their solutions as infinite series, along with numerical methods of approximating solutions.
 Half of this course will also discuss fundamentals of linear algebra and their important applications to differential equations.
 
+### Notation
 Of course, differential equations involve derivatives.
 Notationally, there are many different ways of expressing derivatives and in practice we will use many of these interchangeably.  For example $$f'(x)$$, $$\frac{df}{dx}$$, $$\frac{d}{dx}f$$, $$\dot f$$, and $$Df$$ will all be ways that we express derivatives.
 
 Differential equations arise naturally in all kinds of places, from physical systems, to population dynamics in biology, to pure mathematics.
 We demonstrate this with several key examples below.
 
-## The importance of invariants
+### The importance of invariants
 
 The kinds of differential equations that we can solve analytically (by which we mean without a computer) are very special.
 As such, it is entirely possible to go through an entire class on differential equations with the impression that the topic is a "bag of tricks".
@@ -56,7 +76,7 @@ In other words, first order differential equations are equations that involve th
 Sometimes, it is convenient to rewrite our differential equation is a different canonical form, depending on the type of equation.
 For example, **first-order linear differential equations** will often be expressed as
 
-$$a(x)y' + b(x)y = f(x)$$.
+$$a(x)y' + b(x)y = f(x).$$
 
 Of course, we can go from this form to the previous form by "solving for $$y'$$".
 

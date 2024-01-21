@@ -15,7 +15,10 @@ $$y' = f(x,y),$$
 
 the **slope field** (also called the **direction field**) of the equation is a graph where we consider a grid of points in the $$x,y$$-plane, and at each point we draw a little dash whose slope is the value of $$f$$ at the point.  
 
-For example, the slope field of the differential equation
+## Basic examples
+
+
+**Example 1:**  The slope field of the differential equation
 
 $$y' = xy$$
 
@@ -23,7 +26,7 @@ is given by
 
 <p align="center"><img width=600 src="fig/001-field1.png"/></p>
 
-Likewise, the slope field for the equation
+**Example 2:**  The slope field of the differential equation
 
 $$y' = 1 + xy^2$$
 
@@ -85,5 +88,38 @@ ylabel('y')
 ```
 
 ## Integral curves
+
+Slope fields are connected to solutions of differential equations through the idea of integral curves.
+
+An **integral curve** in a slope field is a curve in the $$x,y$$ plane with the property that at each point on the curve, the slope of the tangent line to the curve is equal to the slope of the direction field.
+
+Intuitively, we can think about the slope field as the surface of a big pond.
+The dashes indicate the direction the water is moving at each point.
+So if a leaf falls into the pond at a particular point, it'll move in the direction of the current at each moment in time.
+In this way it traces out the path of an integral curve.
+:warning: This isn't quite right, since it ignores momentum.  However, if this are moving slowly enough it's a pretty accurate picture!
+
+The equation of an integral curve *defines* a solution of the differential equation.
+To see this, suppose that
+
+$$y = h(x)$$
+
+is the equation of a curve in the $$x,y$$-plane which is an integral curve for $$y' = f(x,y)$$.
+
+Then the slope of the tangent line to the curve at $$(x,y)$$ is $$h'(x)$$, which must also be the same as $$f(x,y)$$.
+This means
+
+$$h'(x) = f(x,h(x)),$$ 
+
+so that $$y=h(x)$$ is solution of the differential equation!
+The next theorem summarizes this observation.
+
+**Theorem:** Integral curves are graphs of solutions!
+
+
+### Additional resources
+
+The MATLAB script used to generate above images can be found here:
+* [topic_001_slope_field.m](matlab/topic_001_slope_field.m)
 
 

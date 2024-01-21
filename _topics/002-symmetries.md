@@ -28,7 +28,7 @@ $$\frac{dv}{dx} = h_x(x,y) + h_y(x,y)y',$$
 
 and therefore since $$\frac{dv}{du} = \frac{dv/dx}{du/dx}$$, we get
 
-$$\frac{dv}{du} = \frac{h_x(x,y) + h_y(x,y)y'}{g_x(x,y) + g_y(x,y)y'}.\hfill (1)$$
+$$\frac{dv}{du} = \frac{h_x(x,y) + h_y(x,y)y'}{g_x(x,y) + g_y(x,y)y'}.\quad\quad (1)$$
 
 This means that algebraically, a symmetry must satisfy the equation
 

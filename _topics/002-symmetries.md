@@ -100,7 +100,7 @@ $$\frac{dv}{du} = \exp(v/u).$$
 
 This makes the aboove transformation a symmetry of the differential equation for each value of $$C$$.
 
-<p align="center"><img width=800 src="fig/002-field1.png"/></p>
+<p align="center"><img width=800 src="fig/002-field2.png"/></p>
 
 
 

@@ -24,7 +24,7 @@ $$\frac{1}{g(y)}dy = f(x)dx.$$
 
 $$\int \frac{1}{g(y)}dy = \int f(x)dx.$$
 
-:warning: Don't forget about your arbitrary constant of integration ($+C$)!
+:warning: Don't forget about your arbitrary constant of integration ($$+C$$)!
 3. Finally, solve for $$y$$ in terms of $$x$$ if possible.  Otherwise, solve for $$x$$ in terms of $$y$$.  Or else just leave it in the cleanest form you can.
 
 ## Detecting separability

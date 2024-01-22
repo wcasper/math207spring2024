@@ -122,7 +122,7 @@ v = h(y)
 
 for certain functions $$h(y)$$.
 In other words, they are invariant under certain transformations that don't change the $$x$$ variable but rearrrange the $$y$$ variable.
-Geometrically, we can think of this as rescaling in the $$y$$-direction in a non-uniform way where we squash some parts and expand others.
+Geometrically, we can think of this as **non-uniform rescaling** in the $$y$$-direction, where we squash some parts and expand others.
 
 **Example:**
 
@@ -141,7 +141,11 @@ The chain rule tells us
 
 $$\frac{dv}{du} = \frac{1}{(1+Cy)^2}y' = \frac{1}{(1+Cy)^2}x y^2 = uv^2.$$
 
-Thus the transformation is a symmtry of the equation for every value of $$C$$.
+Thus the transformation is a symmetry of the equation for every value of $$C$$.
+
+Below, we picture this transformation in the case $$C=2$$.
+The unequally spaced red lines in the first graph become equally spaced in the second graph.
+However, the slope field looks the same in both pictures.
 
 <p align="center"><img width=800 src="fig/003-field1.png"/></p>
 

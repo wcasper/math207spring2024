@@ -47,7 +47,7 @@ $$\tan^{-1}(y) = x^2+C,$$
 
 and our solution is
 
-$$y = \tan(x^2 + C}.$$
+$$y = \tan(x^2 + C).$$
 
 This is the **general solution**.
 

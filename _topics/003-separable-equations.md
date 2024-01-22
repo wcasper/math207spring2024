@@ -27,19 +27,81 @@ $$\int \frac{1}{g(y)}dy = \int f(x)dx.$$
 :warning: Don't forget about your arbitrary constant of integration ($$+C$$)!
 3. Finally, solve for $$y$$ in terms of $$x$$ if possible.  Otherwise, solve for $$x$$ in terms of $$y$$.  Or else just leave it in the cleanest form you can.
 
+**Basic Example:** 
+
+Consider the separable equation
+
+$$y' = 2x(1+y^2).$$
+
+We separate this as
+
+$$\frac{1}{1+y^2}dy = 2xdx.$$
+
+Then we integrate both sides, getting
+
+$$\tan^{-1}(y) = \int\frac{1}{1+y^2}dy = \int 2xdx = x^2 + C.$$
+
+Therefore
+
+$$\tan^{-1}(y) = x^2+C,$$
+
+and our solution is
+
+$$y = \tan(x^2 + C}.$$
+
+This is the **general solution**.
+
+If we add an initial condition, like $$y(0) = 1$$, then we can insert this into our general solution
+
+$$1 = \tan(0^2+C),$$
+
+and solve for $$C$$.  In this case we get $$C = \pi/4$$, giving us the **particular solution**
+
+$$y = \tan\left(x^2 + \frac{\pi}{4}\right).$$
+
 ## Detecting separability
 
 While the strategy for solving a separable equation is straight-forward, that's not always the tricky part.
 Oftentimes equations might be separable, but we might not notice it!
-For example, the equations
+Sometimes we need to do a bit of algebra to figure out if an equation is separable.
 
-$$y' = 2xy + 3y-4x-6$$
+
+**Example 1:**
+
+The equation
 
 $$y' = \frac{x^2y-xy^2}{x-y}$$
 
+simplifies to
+
+$$y' = xy,$$
+
+which is separable.
+
+**Example 2:**
+
+After factoring, the equation
+
+$$y' = 3xy + y-6x-2$$
+
+can be rewritten as
+
+$$y' = (3x+1)(y-2)$$
+
+which is separable.
+
+**Example 2:**
+
+After using angle addition formulas for sine,
+the equation
+
 $$y' = \sin(x+y)+\sin(x-y)$$
 
-are all separable, as one can see fter doing a bit of algebra.
+simplifies to
+
+$$y' = 2\sin(x)\cos(y),$$
+
+which is separable.
 
 ## The role of symmetry
 

@@ -143,6 +143,8 @@ $$\frac{dv}{du} = \frac{1}{(1+Cy)^2}y' = \frac{1}{(1+Cy)^2}x y^2 = uv^2.$$
 
 Thus the transformation is a symmtry of the equation for every value of $$C$$.
 
+<p align="center"><img width=800 src="fig/003-field1.png"/></p>
+
 **General case:**
 
 In general, a separable differential equation

@@ -10,7 +10,7 @@ permalink: /assess/lecture1
 True or false.
 The function $$y=x^2$$ is a solution of the differential equation
 
-$$2y'' = \frac{(y')^2}$$
+$$2y'' = \frac{(y')^2}{y}$$
 
 **Question 2:**
 

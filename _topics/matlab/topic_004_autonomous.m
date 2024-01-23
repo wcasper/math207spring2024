@@ -7,6 +7,8 @@ ymin =  0.0;    % minimum y value
 ymax =  2.0;    % maximum y value
 
 
+% create nx-by-ny matrices whose entries are the x and y values
+[X, Y] = meshgrid(linspace(xmin,xmax,nx),linspace(ymin,ymax,ny));
 
 
 % plot the logistic equation phase diagram
@@ -14,6 +16,13 @@ k = 2;   % growth rate
 C = 1;   % carrying capacity
 t     = linspace(xmin,xmax,nx);
 inits = [0.1,0.5,1.1,1.5,2.0];  % starting points
+
+fun1 = @(x, y) (k*y.*(1-y/C));
+DYDX = fun1(X, Y);
+DY = DYDX ./ sqrt(1 + DYDX.^2);
+DX = ones(length(DY)) ./ sqrt(1 + DYDX.^2);
+h = quiver(X, Y, DX, DY, 0.5);
+set(h, "maxheadsize", 0.0);
 
 hold on
 for y0 = inits
@@ -35,20 +44,32 @@ yline(1,'r-.','LineWidth',5)
 saveas(gcf,'../fig/004-logistic.png')
 
 
+% clear the figure window
+clf 
 
-% plot some integral curves of the latter slope field
+% update coordinates for next figure
+xmin = 0;
+xmax = 2.5;
+ymin = -2.5;
+ymax =  1.2;
+
+[X, Y] = meshgrid(linspace(xmin,xmax,nx),linspace(ymin,ymax,ny));
+
+% plot the second phase diagram
+fun2 = @(x,y)((y-1).*y.*(y+1).*(y+2).*(y+2))
+DYDX = fun2(X, Y);
+DY = DYDX ./ sqrt(1 + DYDX.^2);
+DX = ones(length(DY)) ./ sqrt(1 + DYDX.^2);
+h = quiver(X, Y, DX, DY, 0.5);
+set(h, "maxheadsize", 0.0);
 
 equilib = [-2,-1,0,1]
-
-clf 
-hold on
 
 ystarts = [-2.1,-1.5,-1.1,-0.9,-0.5,0.1,0.5,0.9,1.01]
 
 ncurves = length(ystarts)
 
-fun1 = @(x,y)((y-1)*y*(y+1)*(y+2)*(y+2))
-
+hold on
 for m = 1:ncurves
   Z = zeros([1,nx]);
   Z(1) = ystarts(m);
@@ -60,7 +81,7 @@ for m = 1:ncurves
     foo = Z(k-1);
     for j = 1:nsteps
       x = x + dx/nsteps;
-      foo = foo + (dx/nsteps)*fun1(x,foo);
+      foo = foo + (dx/nsteps)*fun2(x,foo);
     end
     Z(k) = foo;
   end
@@ -71,7 +92,8 @@ for e = equilib
   yline(e,'r-.','LineWidth',4)
 end
 
-ylim([-2.5,1.2])
+xlim([xmin,xmax])
+ylim([ymin,ymax])
   
 saveas(gcf,'../fig/004-phase.png')
 

@@ -152,9 +152,9 @@ It's very important that both $$f$$ and $$f_y$$ are well-behaved, as the next ex
 
 **Counter-example:**  Consider the initial value problem
 
-$$y' = \sqrt{y},\quad y(0) = 0.$$
+$$y' = y^{1/3},\quad y(0) = 0.$$
 
-This initial value problem has a solution $$y=x^2/4$$.  It also has the constant solution $$y=0$$.  Thus there isn't a unique solution and the problem is not well-posed.
+This initial value problem has a solution $$y=(2x/3)^{3/2}$$.  It also has the constant solution $$y=0$$.  Thus there isn't a unique solution and the problem is not well-posed.
 
 ### Additional resources
 

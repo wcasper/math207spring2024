@@ -102,19 +102,12 @@ $$y' = (y-1)y(y+1)(y+2)^2.$$
 The equilibrium values are $$-2,-1,0,$$ and $$1$$.
 We outline the changes in the sign in the chart below.
 
-| y |sign|
-|---|----|
-|\| |POS | 
-| 1 |    |
-|\| |NEG | 
-| 0 |    |
-|\| |POS | 
-|-1 |    |
-|\| |NEG | 
-|-2 |    |
-|\| |NEG |
+| interval | $$-\infty < y < -2$$ | $$-2 < y < -1$$ | $$-1 < y < 0$$ | $$0 < y < 1$$ | $$1 < y < \infty$$ |
+|  sign    | NEG | NEG | POS | NEG | POS
 
+This tells us that $-2$$ is semistable, $$-1$$ and $$1$$ are unstable, and $$0$$ is stable.
 
+<p align="center"><img width=600 src="fig/004-phase.png"/></p>
 
 
 ### Additional resources

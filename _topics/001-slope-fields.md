@@ -148,6 +148,14 @@ Then there exists an interval $$I$$ containing $$x_0$$ on which the initial valu
 Intuitively, this means that when our leaf touches down on the surface of the lake, the way it will move will be completely determined! At least for a little while...
 Geometrically, this means that the integral curves we were drawing above can never intersect, except at points where $$f$$ or $$\partial f/\partial y$$ have discontinuities.
 
+It's very important that both $$f$$ and $$f_y$$ are well-behaved, as the next example shows.
+
+**Counter-example:**  Consider the initial value problem
+
+$$y' = \sqrt{y},\quad y(0) = 0.$$
+
+This initial value problem has a solution $$y=x^2/4$$.  It also has the constant solution $$y=0$$.  Thus there isn't a unique solution and the problem is not well-posed.
+
 ### Additional resources
 
 The MATLAB script used to generate above images can be found here:

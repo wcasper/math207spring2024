@@ -89,7 +89,7 @@ Producing this kind of graphic always follows the same basic steps
 1. Solve $$g(y) = 0$$ for the equilibrium values.
 2. Between each equilibrium point, determine the sign of $$g(y)$$.
 3. Use (2) to classify the stability of each equilibrium value.
-4. Draw in the equilibrium values and some curves between each value which asymptotically approach equilibria or diverge to plus or minus infinity.
+4. Draw in the equilibrium values and some curves between each value which asymptotically approach equilibria or diverge to plus or minus infinity.  Optionally, also sketch in the slope field.
 
 :warning: Remember, in your sketches the test curves can never cross each other or the equilibrium lines.  This is because of uniqueness of solutions!
 
@@ -105,7 +105,7 @@ We outline the changes in the sign in the chart below.
 | interval | $$-\infty < y < -2$$ | $$-2 < y < -1$$ | $$-1 < y < 0$$ | $$0 < y < 1$$ | $$1 < y < \infty$$ |
 |  sign    | NEG | NEG | POS | NEG | POS
 
-This tells us that $-2$$ is semistable, $$-1$$ and $$1$$ are unstable, and $$0$$ is stable.
+This tells us that $$-2$$ is semistable, $$-1$$ and $$1$$ are unstable, and $$0$$ is stable.
 
 <p align="center"><img width=600 src="fig/004-phase.png"/></p>
 

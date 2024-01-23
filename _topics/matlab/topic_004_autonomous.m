@@ -18,7 +18,7 @@ inits = [0.1,0.5,1.1,1.5,2.0];  % starting points
 hold on
 for y0 = inits
   y = C + exp(-k*t/C)*(y0-C);
-  plot(t,y,'o-','Linewidth',2)
+  plot(t,y,'Linewidth',2)
 end
 
 xlim([xmin,xmax])

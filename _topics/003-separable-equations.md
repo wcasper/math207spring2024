@@ -151,18 +151,49 @@ However, the slope field looks the same in both pictures.
 
 **General case:**
 
-In general, a separable differential equation
+In general, consider an arbitrary separable differential equation
 
-$$y' = f(x)g(y)$$
+$$y' = f(x)g(y).$$
 
-has the family of symmetries
+We search for a symmetry of the form
+
+$$\begin{align}
+u = x,\\
+v = h(y).
+\end{align}$$
+
+In this case
+
+$$\frac{dv}{du} = h'(y)y',$$
+
+and therefore our original differential equation says
+
+$$\frac{1}{h'(y)}\frac{dv}{du} = f(x)g(y).$$
+
+For this to be a symmetry, we need $$\frac{dv}{du} = f(u)g(v)$$, which would imply
+
+$$\frac{1}{h'(y)}f(u)g(v) = f(x)g(y).$$
+
+In terms of $$x$$ and $$y$$, this becomes
+
+$$\frac{1}{h'(y)}g(h(y)) = g(y),$$
+
+which is a separable ODE for $$h$$ in terms of $$y$$:
+
+$$\frac{dh}{dy} = \frac{g(h)}{g(y)}.$$
+
+We solve it as above, leading to
+
+$$\int\frac{1}{g(h)}dh = \int \frac{1}{g(y)}dy.$$
+
+Thus our general separable equation has the family of symmetries
 
 $$\begin{align}
 u = x,\\
 v = \eta^{-1}(\eta(y)+C)
 \end{align}$$
 
-where here $$\eta(t) = \int 1/g(t)dt$$.
+for a fixed choice of antiderivative  $$\eta(t) = \int 1/g(t)dt$$.
 
 
 

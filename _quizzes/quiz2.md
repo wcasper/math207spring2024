@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Lecture 2 Assessment
-permalink: /quizzes/lecture1
+permalink: /quizzes/lecture2
 ---
 
 

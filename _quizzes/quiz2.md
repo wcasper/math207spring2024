@@ -18,7 +18,7 @@ For any constant $$C$$,
 $$\left\lbrace\begin{array}{cc}
 u &= x\\
 v &= (y^3+C)^{1/3}\\
-\end{array}\right.
+\end{array}\right.$$
 
 is a symmetry of the differential equation
 

@@ -135,6 +135,6 @@ To summarize, for exact equations we will always involve the same steps.
 2. Use partial integration with respect to $$x$$ on $$M(x,y)$$ or partial integration with respect to $$y$$ on $$N(x,y)$$ (whichever is easier!) to get $$\psi(x,y)$$ in terms of an arbitrary function of the other variable.
 3. Now use the equation that we *didn't* already use to differentiate our expression for $$\psi(x,y)$$ and solve for the unknown function.
 4. Conclude by setting our final expression for $$\psi(x,y)$$ equal to an arbitrary constant.
-5. Clean up!  Solve for $$y$$ in terms of $$x$$ (or elsee $$x$$ in terms of $$y$) if it seems practical.  If it's an initial value problem, also plug in the initial condition to find the value of the constant!
+5. Clean up!  Solve for $$y$$ in terms of $$x$$ (or else $$x$$ in terms of $$y$$) if it seems practical.  If it's an initial value problem, also plug in the initial condition to find the value of the constant!
 
 

@@ -159,6 +159,6 @@ This initial value problem has a solution $$y=(2x/3)^{3/2}$$.  It also has the c
 ### Additional resources
 
 The MATLAB script used to generate above images can be found here:
-* [topic_001_slope_field.m](matlab/topic_001_slope_field.m)
+* [topic_001_slope_field.m](matlab/topic_001_slope_fields.m)
 
 

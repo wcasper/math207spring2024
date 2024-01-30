@@ -106,7 +106,7 @@ This makes the aboove transformation a symmetry of the differential equation for
 ### Additional resources
 
 The MATLAB script used to generate above images can be found here:
-* [topic_002_symmetry.m](matlab/topic_002_symmetry.m)
+* [topic_002_symmetry.m](matlab/topic_002_symmetries.m)
 
 
 

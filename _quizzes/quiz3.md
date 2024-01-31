@@ -17,7 +17,6 @@ If $$y(0) = 2$$, what value will $$y$$ approach as $$x$$ goes to infinity?
 * (C) $$1$$
 * (D) $$-\infty$$
 
-
 **Question 2:**  Multiple choice.
 
 Consider the differential equation from Question 1.
@@ -29,7 +28,10 @@ If $$y(0) = 1/2$$, what value will $$y$$ approach as $$x$$ goes to infinity?
 
 **Question 3:**  Multiple choice.
 
-Consider the differential equation from Question 1.
+Consider the differential equation 
+
+$$\frac{dy}{dt} = y(1-y^2).$$
+
 Which of the following is a type of equilibrium value that we talked about but which is *not* featured by this equation.
 * (A) stable
 * (B) bifurcation

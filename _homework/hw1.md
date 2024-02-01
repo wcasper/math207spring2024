@@ -19,7 +19,7 @@ You will be graded based on *completion* of all of the assigned problems, along 
 
 # Problem 1
 
-Classify each of the following differential equations as *linear*, *separable*, or *nonlinear homogeneous*.
+Classify each of the following differential equations as *linear*, *separable*, or *homogeneous*.
 Note that some equations may have more than one classification, so make sure to list all that apply.
 If *none* of the classes apply, write *something else*.
 

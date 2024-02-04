@@ -30,7 +30,5 @@ where $$y(x)$$ is a solution of the IVP
 
 $$1 + ye^{xy} + (3y^2 + xe^{xy})y' = 0,\ \ \ y(-8) = 0.$$
 
-$$y^3 + x + e^{xy} = C.$$
-
 
 

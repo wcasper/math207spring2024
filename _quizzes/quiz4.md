@@ -15,19 +15,22 @@ Every closed equation is exact.
 
 **Question 3:**  Multiple choice.
 
-Which of the following is a type of equilibrium value that we talked about but which is *not* featured by this equation.
-* (A) stable
-* (B) bifurcation
-* (C) semistable
-* (D) unstable
+The value of $$\int x^2y \partial x$$ is
 
-**Question 4:** True or false.
+* (A) $$2xy + f(x)$$
+* (B) $$\frac{1}{3}x^3y + f(x)$$
+* (C) $$2xy + g(y)$$
+* (D) $$\frac{1}{3}x^3y + g(y)$$
 
-A first-order **homogeneous equation** is an equation of the form
 
-$$y' = f(x)/f(y).$$
+**Question 4:** Numerical.
 
-**Question 5:** True or false.
+Determine the value of $$y(0)$$,
+where $$y(x)$$ is a solution of the IVP
 
-The correct substitution to solve a first-order homogeneous equation is $$z = y/x$$.
+$$1 + ye^{xy} + (3y^2 + xe^{xy})y' = 0,\ \ \ y(-8) = 0.$$
+
+$$y^3 + x + e^{xy} = C.$$
+
+
 

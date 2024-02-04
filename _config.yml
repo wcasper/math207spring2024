@@ -53,6 +53,7 @@ header_pages:
  - about.md
  - syllabus.md
  - topics-list.md
+ - worksheets-list.md
  - quiz-list.md
  - homework-list.md
  - exams-list.md
@@ -68,6 +69,8 @@ plugins:
 # create a collection of topics and homework
 collections:
   topics:
+    output: true
+  worksheets:
     output: true
   quizzes:
     output: true

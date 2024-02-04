@@ -1,6 +1,6 @@
 ---
 layout: page
-title: List of Course Topics
+title: Topics
 permalink: /topics-list/
 ---
 

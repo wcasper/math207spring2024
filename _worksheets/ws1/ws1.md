@@ -230,7 +230,7 @@ ylim([0 1000])
 legend('observed speed','model','model with drag')
 ```
 
-<p align="center"><img width=300 src="model2.png"/></p>
+<p align="center"><img width=300 src="ws1/model2.png"/></p>
 
 Our new model does a better job of explaning the shape of the curve.
 However, it starts to dramatically diverge with the actual curve after $$50$$ seconds.

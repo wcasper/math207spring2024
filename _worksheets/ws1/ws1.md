@@ -181,7 +181,7 @@ xlabel('time (s)')
 ylabel('gravitational acceleration (m/s^2)')
 ```
 
-<p align="center"><img width=500 src="ws1/gravity.png"/></p>
+<p align="center"><img width=700 src="ws1/gravity.png"/></p>
 
 **Questions:**
 

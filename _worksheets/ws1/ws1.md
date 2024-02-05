@@ -18,7 +18,7 @@ In his descent, Baumgartner broke the speed of sound, becoming the first human t
 {% include youtube.html id="raiFrxbHxV0;" %}
 
 Data of his altitude and speed over time was obtained directly from the above footage and is available in the following data file
-* [unofficial Stratos jump data](stratos.dat)
+* [unofficial Stratos jump data](ws1/stratos.dat)
 
 
 In this worksheet, we want to analyze Felix's descent by **modeling** it using first-order ODEs and **MATLAB**.
@@ -130,7 +130,7 @@ xlim([0, 200])
 
 You  should obtain the following figure.  If you did not, go back and check what you might have missed.
 
-<p align="center"><img width=300 src="model1.png"/></p>
+<p align="center"><img width=300 src="ws1/model1.png"/></p>
 
 
 **Questions:**
@@ -181,7 +181,7 @@ xlabel('time (s)')
 ylabel('gravitational acceleration (m/s^2)')
 ```
 
-<p align="center"><img width=300 src="gravity.png"/></p>
+<p align="center"><img width=300 src="ws1/gravity.png"/></p>
 
 **Questions:**
 

@@ -130,7 +130,7 @@ xlim([0, 200])
 
 You  should obtain the following figure.  If you did not, go back and check what you might have missed.
 
-<p align="center"><img width=300 src="ws1/model1.png"/></p>
+<p align="center"><img width=500 src="ws1/model1.png"/></p>
 
 
 **Questions:**
@@ -181,7 +181,7 @@ xlabel('time (s)')
 ylabel('gravitational acceleration (m/s^2)')
 ```
 
-<p align="center"><img width=300 src="ws1/gravity.png"/></p>
+<p align="center"><img width=500 src="ws1/gravity.png"/></p>
 
 **Questions:**
 
@@ -230,7 +230,7 @@ ylim([0 1000])
 legend('observed speed','model','model with drag')
 ```
 
-<p align="center"><img width=300 src="ws1/model2.png"/></p>
+<p align="center"><img width=500 src="ws1/model2.png"/></p>
 
 Our new model does a better job of explaning the shape of the curve.
 However, it starts to dramatically diverge with the actual curve after $$50$$ seconds.

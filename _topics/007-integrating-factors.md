@@ -100,7 +100,7 @@ $$\mu(x) = \mu'(x)(x/y + 2x) + \mu(x)(1/y + 2).$$
 
 Simplifying this, we get
 
-$$\frac{\mu'(x)}{\mu(x)} = -\frac{(1/y + 1}{x/y + 2x}.$$
+$$\frac{\mu'(x)}{\mu(x)} = -\frac{1/y + 1}{x/y + 2x}.$$
 
 The left is a function of $$x$$ only, but the right depends on both $$x$$ and $$y$$.
 This is **complete nonsense!**

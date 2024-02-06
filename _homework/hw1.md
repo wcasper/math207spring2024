@@ -39,7 +39,7 @@ Find the general solution of each of the following ODEs, unless it has an initia
 * (a) $$y' = y/x + x/y,\ y(1) = 1$$
 * (b) $$y' = \sin(x)\cos(y)$$
 * (c) $$y' = xy + x + y + 1,\ y(1)=2.$$
-* (d) $$y' = \ln(y) - \ln(x)$$
+* (d) $$y' = \ln(y) - \ln(x)$$  (Here, just set up the integral.  You do not need to solve.)
 
 # Problem 3
 

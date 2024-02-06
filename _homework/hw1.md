@@ -28,7 +28,7 @@ Remember: some equations may need a bit of algebra to reveal what type they are!
 * (a) $$xy' = x+y$$
 * (b) $$y' = x^3y$$
 * (c) $$y' = (y/x)^2$$
-* (d) $$y' = (y/x)^2$$
+* (d) $$y' = (x/y)^2$$
 * (e) $$y' = x^2 + y^2$$
 * (f) $$y' = (y-x)/(y+x)$$
 

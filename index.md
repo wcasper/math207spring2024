@@ -15,7 +15,7 @@ title: Math 207 Differential Equations and Linear Algebra
 
 **Course meetings:** Tuesday and Thursday 10:00AM-11:50AM
 
-**Office hours:** TBA
+**Office hours:** Tu, Thu 12-1PM in MH 501 Computer Lab and Th 4-5PM in my office
 
 **Syllabus:** <a target="_parent" href="extras/syllabus.html">Course syllabus (link)</a>
 

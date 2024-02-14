@@ -23,7 +23,7 @@ In the method of **variation of parameters**, we propose a solution of the form 
 
 **Question 4:**  Numerical.
 
-For which value of $$a$$ is $$\mu = e^{at}$$ an integrating factor for
+For which value of $$a$$ is $$\mu = e^{ax}$$ an integrating factor for
 
 $$y' - 2y = \tan(x).$$
 

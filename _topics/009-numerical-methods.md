@@ -185,9 +185,9 @@ The algorithm is straightforward to implement.
 For each step, we calculate for quantities $$k_1,\dots, k_4$$ given by
 
 $$\begin{align}
-  k_1 &= hf(t_{k-1},y_{k-1}),
-  k_2 &= hf(t_{k-1} + h/2, y_{k-1} + k_1/2),
-  k_3 &= hf(t_{k-1} + h/2, y_{k-1} + k_2/2),
+  k_1 &= hf(t_{k-1},y_{k-1}),\\
+  k_2 &= hf(t_{k-1} + h/2, y_{k-1} + k_1/2),\\
+  k_3 &= hf(t_{k-1} + h/2, y_{k-1} + k_2/2),\\
   k_4 &= hf(t_{k-1} + h, y_{k-1} + k_3).
 \end{align}$$
 

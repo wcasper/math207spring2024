@@ -226,7 +226,7 @@ The Forward Euler features the dog-chasing-squirrel type stepping errors at the 
 ### Additional resources
 
 The MATLAB script used to generate above images can be found here:
-* [topic_009_numerical_mthods.m](matlab/topic_009_numerical_methods.m)
+* [topic_009_numerical_mthods.m](matlab/topic_009_numerical.m)
 
 
 

@@ -171,6 +171,63 @@ end
 
 ## Runge-Kutta
 
+One of the most popular algorithms for solving ODEs numerically is fourth-order Runge-Kutta (RK4).
+
+The premise of Runge-Kutta methods is to use multiple *intermediate steps* between each full time step to obtain an estimate of the next value of $$y$$ at the next stage that will have a higher degree of accuracy.
+
+This has the positive benefit of being much more accurate than a basic method like Forward Euler.  However, it still can have problems:
+* it can still suffer from stiffness issues (see implicit or adaptive RK4),
+* it is more laborious to calculate by hand (not an issue with a computer), and
+* if evaluating the function $$f(x)$$ takes a long time, it might end up being slow.
+
+Barring these issues, RK4 is a good go-to method for a wide range of ODEs.
+The algorithm is straightforward to implement.
+For each step, we calculate for quantities $$k_1,\dots, k_4$$ given by
+
+$$\begin{align}
+  k_1 &= hf(t_{k-1},y_{k-1}),
+  k_2 &= hf(t_{k-1} + h/2, y_{k-1} + k_1/2),
+  k_3 &= hf(t_{k-1} + h/2, y_{k-1} + k_2/2),
+  k_4 &= hf(t_{k-1} + h, y_{k-1} + k_3).
+\end{align}$$
+
+Then our update is
+
+$$y_k = y_{k-1} + \frac{1}{6}(k_1 + 2k_2 + 2k_3 + k_4).$$
+
+### Basic example
+
+Using the same initial value problem as before
+
+```Matlab
+% run RK4
+
+t(1) = t0;    % initial condition
+w(1) = y0;    % initial condition
+
+f = @(t,y) (a*sin(t)-a*y);
+for k=2:nsteps
+  t(k) = t(k-1) + h;
+  k1 = h*f(t(k-1),w(k-1));
+  k2 = h*f(t(k-1) + h/2, w(k-1) + k1/2);
+  k3 = h*f(t(k-1) + h/2, w(k-1) + k2/2);
+  k4 = h*f(t(k-1) + h, w(k-1) + k3);
+  w(k) = w(k-1) + (k1 + 2*k2 + 2*k3 + k4)/6;
+end
+```
+
+A comparison of all three of these methods for $$a = 20$$ with $$100$$ time steps in the interval $$[0,3\pi]$$ is pictured below.
+
+<p align="center"><img width=600 src="fig/009-comparison.png"/></p>
+
+The Forward Euler features the dog-chasing-squirrel type stepping errors at the beginning.  The Backward Euler fixes this, and RK4 is slightly more accurate than RK4 here.
+
+
+### Additional resources
+
+The MATLAB script used to generate above images can be found here:
+* [topic_009_numerical_mthods.m](matlab/topic_009_numerical_methods.m)
+
 
 
 

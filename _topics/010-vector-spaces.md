@@ -39,6 +39,10 @@ Likewise if we multiply a polynomial by a real number, we get a polynomial of at
 We also have the zero polynomial $$0 + 0x + 0x^2 + 0x^3$$, which plays the role of the zero vector $$\mathbf 0$$.
 Taking these all together, this is an example of a real vector space.
 
+**Example:** The set of all $$n\times 1$$ row vectors is a vector space.
+
+**Example:** The set of all $$1\times n$$ row vectors is a vector space.
+
 **Example:** The set of all $$2\times 2$$ matrices with real entries is a real vector space.
 
 **Example:** Let $$I\subseteq\mathbb{R}$$ be an interval.  The set of all real-valued functions on $$I$$ is a vector space.

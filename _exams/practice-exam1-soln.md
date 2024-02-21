@@ -129,15 +129,15 @@ $$xz' = \tan(z)$$
 
 Separating and integrating, we get
 
-$$\ln\sec(z) = \ln(x) + C_1$$
+$$\ln\sin(z) = \ln(x) + C_1$$
 
 Exponentiating gives
 
-$$\sec(z) = Cx$$
+$$\sin(z) = Cx$$
 
 and substituting back in for $$z$$ we have 
 
-$$\sec(y/x) = Cx.$$
+$$\sin(y/x) = Cx.$$
 
 * (d) This is a first-order linear equation
 

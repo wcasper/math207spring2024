@@ -20,6 +20,20 @@ In the special case that
 $$V = \text{span}\{\mathbf u_1,\dots,\mathbf u_n\}$$, we call $$\{\mathbf u_1,\dots,\mathbf u_n\}$$ a **spanning set** for $$V$$.
  
 
+**Example:** The set of vectors
+
+$$\left\lbrace\binom{1}{0},\binom{0}{1}\right\rbrace$$
+
+is a spanning set for the vector space of all $$2\times 1$$ column vectors.
+
+**Example:** The set of vectors $$\{\mathbf e_1,\mathbf e_2,\dots,\mathbf e_n\}$$
+is a spanning set for the vector space of all $$n\times 1$$ column vectors,
+where here 
+
+$$\mathbf e_j = \left(\begin{array}{c}0\\\vdots\\0\\1\\0\\\vdots\\0\end{array}\right).$$
+
+is the column vector with a $$1$$ in the $$j$$'th spot and zeros elsewhere.  This spanning set is called the **standard basis**.
+
 **Example:** Let $$V$$ be the set of all polynomials of degree at most $$3$$.  Then $$V$$ is a vector space and 
 
 $$\{1,x,x^2,x^3\}$$

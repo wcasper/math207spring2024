@@ -11,6 +11,8 @@ title: Math 207 Differential Equations and Linear Algebra
 
 **Instructor:** Dr. W. Riley Casper [(About your instructor)](instructor)
 
+**Office:** MH 160A
+
 **Email:** wcasper@fullerton.edu
 
 **Course meetings:** Tuesday and Thursday 10:00AM-11:50AM

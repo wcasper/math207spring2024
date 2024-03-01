@@ -24,7 +24,7 @@ For each of the following, determine if the set is a vector space or not.  Caref
 * (A) $$\{A: A\ \text{is a $2\times 2$ matrix and $A^2$ is symmetric}\}$$
 * (B) $$\{A: A\ \text{is a $2\times 2$ matrix and $AA^T=I$}\}$$
 * (C) $$\{a + bx + cx^2 + dx^3: a,b,c,d\in\mathbb{R}\}$$
-* (D) $$\{f(x): \text{$f(x)$ is a continuous function on $[0,1]$ and $\int_0^1 f(x)dx = 0$\}$$
+* (D) $$\{f(x): \text{$f(x)$ is a continuous function on $[0,1]$ and $\int_0^1 f(x)dx = 0$}\}$$
 
 # Problem 2
 
@@ -32,7 +32,7 @@ For each of the following, decide whether the set of vectors in $$V$$ spans $$V$
 
 * (A) $$\{(1,1),(1,-1)\}$$ in $$\mathbb R^2$$
 * (B) $$\{(1,-2,1),(1,-3,2), (-2,1,1)\}$$ in $$\mathbb R^3$$
-* (C) $$\left\lbrace\left(\begin{array}{cc}1 & 1\\-1& 2\right),\left(\begin{array}{cc}1 & 0\\0 & 1\right),\left(\begin{array}{cc}3 & -2\\2& 0\right)\right\rbrace$$ in $$M_2(\mathbb R)$$
+* (C) $$\left\lbrace\left(\begin{array}{cc}1 & 1\\-1& 2\end{array}\right),\left(\begin{array}{cc}1 & 0\\0 & 1\end{array}\right),\left(\begin{array}{cc}3 & -2\\2& 0\end{array}\right)\right\rbrace$$ in $$M_2(\mathbb R)$$
 
 # Problem 3
 

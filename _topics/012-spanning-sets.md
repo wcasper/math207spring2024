@@ -45,6 +45,27 @@ $$\{1, 2, 3, (x+1)^2, (x+2)^2, x^3 + 3x + 1\}$$
 are all spanning sets for $$V$$.
 
 
+**Example:** In $$\mathbb R^3$$, the dimension of everything is small enough that we can draw pictures.
+The span of the set $$\{(1,0,0),(0,0,1)\}$$ consists of all linear combinations
+
+$$\{a(1,0,0) + b(0,0,1): a,b\in\mathbb{R}\} = \{(a,0,b): a,b\in\mathbb{R}\}.$$
+
+This is the set of all points $$(x,y,z)$$ in $$\mathbb R^3$$ where $$y=0$$.  Put another way, it's the $$x,z$$-plane!
+
+The span of the set $$\{(1,1,0),(0,1,1)\}$$ consists of all linear combinations
+
+$$\{a(1,1,0) + b(0,1,1): a,b\in\mathbb{R}\} = \{(a,a+b,b): a,b\in\mathbb{R}\}.$$
+
+This is set of all points $$(x,y,z)$$ in $$\mathbb R^3$$ where $$y=x+z$$.  In other words, it is the plane $$x-y+z=0$$.
+
+<p align="center"><img width=500 src="fig/012-span-example.png"/></p>
+
+Geometrically, we can think about the span of a set $$S$$ of vectors in $$\mathbb{R}^3$$ as a kind of alien space ship that can travel in three dimensions.
+However, at any given time it is only able to travel in one of the directions of the vectors in $$S$$.
+Then I can switch directions and starting from my current position, travel the direction of some other vector in my set $$S$$.
+If there aren't enough interesting directions in $$S$$ to choose from, the space ship might not be able to reach everywhere.
+
+
 
 
 

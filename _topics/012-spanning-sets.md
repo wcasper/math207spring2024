@@ -82,9 +82,11 @@ $$\left\lbrace
 
 Is there a nice way to describe the *span* of these matrices in the vector space $$M_3(\mathbb{R})$$ of all $$3\times 3$$ matrices?
 We can start to explore this question by taking an arbitrary linear combination of the six matrices above, leading to the matrix
+
 $$
 \left(\begin{array}{ccc} a+b & c+d & e+f \\ c+e & a+f & d+b\\ d+f & b+e & a+c\end{array}\right),
 $$
+
 where $$a,b,c,d,e,f\in\mathbb{R}$$.
 Notice that the sum of each row and each column always adds up to $$a+b+c+d+e+f$$.
 It turns out that this characterizes the matrices in question.

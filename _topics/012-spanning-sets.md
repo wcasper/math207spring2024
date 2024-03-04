@@ -44,6 +44,7 @@ $$\{1, 2, 3, (x+1)^2, (x+2)^2, x^3 + 3x + 1\}$$
 
 are all spanning sets for $$V$$.
 
+## Spans in three dimensions
 
 **Example:** In $$\mathbb R^3$$, the dimension of everything is small enough that we can draw pictures.
 The span of the set $$\{(1,0,0),(0,0,1)\}$$ consists of all linear combinations
@@ -65,7 +66,30 @@ However, at any given time it is only able to travel in one of the directions of
 Then I can switch directions and starting from my current position, travel the direction of some other vector in my set $$S$$.
 If there aren't enough interesting directions in $$S$$ to choose from, the space ship might not be able to reach everywhere.
 
+## More complicated spans
 
+Oftentimes, we end up needing to consider spans of vectors in more complicated vector spaces.
+Instead of drawing the span, our task is to instead find a nice way of describing or *characterizing* the span.
+Consider, for example the set of $$3\times 3$$ **permutation matrices**
+$$\left\lbrace
+\left(\begin{array}{ccc} 1 & 0 & 0 \\ 0 & 1 & 0\\ 0 & 0 & 1\end{array}\right),
+\left(\begin{array}{ccc} 1 & 0 & 0 \\ 0 & 0 & 1\\ 0 & 1 & 0\end{array}\right),
+\left(\begin{array}{ccc} 0 & 1 & 0 \\ 1 & 0 & 0\\ 0 & 0 & 1\end{array}\right),
+\left(\begin{array}{ccc} 0 & 1 & 0 \\ 0 & 0 & 1\\ 1 & 0 & 0\end{array}\right),
+\left(\begin{array}{ccc} 0 & 0 & 1 \\ 1 & 0 & 0\\ 0 & 1 & 0\end{array}\right),
+\left(\begin{array}{ccc} 0 & 0 & 1 \\ 0 & 1 & 0\\ 1 & 0 & 0\end{array}\right)
+\right\rbrace.$$
+
+Is there a nice way to describe the *span* of these matrices in the vector space $$M_3(\mathbb{R})$$ of all $$3\times 3$$ matrices?
+We can start to explore this question by taking an arbitrary linear combination of the six matrices above, leading to the matrix
+$$
+\left(\begin{array}{ccc} a+b & c+d & e+f \\ c+e & a+f & d+b\\ d+f & b+e & a+c\end{array}\right),
+$$
+where $$a,b,c,d,e,f\in\mathbb{R}$$.
+Notice that the sum of each row and each column always adds up to $$a+b+c+d+e+f$$.
+It turns out that this characterizes the matrices in question.
+
+**Prop:** The span of the $$3\times 3$$ permutation matrices consist of all $$3\times 3$$ matrices whose row and column sums are all equal.
 
 
 

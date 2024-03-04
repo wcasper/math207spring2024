@@ -32,20 +32,20 @@ is not a subspace of the space of all $$2\times 1$$ column vectors, because it d
 
 **Question 4:**  True or false.
 
-The vector $$\left(\begin{array}{ccc}-3 & 2 & 1\end{array}\right)$$ is in the span of the set of vectors
+The vector $$\left(\begin{array}{c}-3\\ 2\\ 1\end{array}\right)$$ is in the span of the set of vectors
 
 $$\left\lbrace
-\left(\begin{array}{ccc}1 & -2 & 1\end{array}\right),
-\left(\begin{array}{ccc}5 & -2 & -3\end{array}\right)
+\left(\begin{array}{c}1\\ -2\\ 1\end{array}\right),
+\left(\begin{array}{c}5\\ -2\\ -3\end{array}\right)
 \right\rbrace$$
 
 **Question 5:**  True or false.
 
-The vector $$\left(\begin{array}{ccc}1 & 2 & 1\end{array}\right)$$ is in the span of the set of vectors
+The vector $$\left(\begin{array}{c}1\\ 2\\ 1\end{array}\right)$$ is in the span of the set of vectors
 
 $$\left\lbrace
-\left(\begin{array}{ccc}1 & -2 & 1\end{array}\right),
-\left(\begin{array}{ccc}5 & -2 & -3\end{array}\right)
+\left(\begin{array}{c}1\\ -2\\ 1\end{array}\right),
+\left(\begin{array}{c}5\\ -2\\ -3\end{array}\right)
 \right\rbrace$$
 
 

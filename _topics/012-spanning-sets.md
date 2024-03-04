@@ -7,7 +7,7 @@ A vector space $$V$$ always has scalar multiplication and vector addition, so by
 More formally, these combinations of vector addition and scalar multiplicationo are called linear combinations.
 A **linear combination** of a collection of vectors $$\mathbf u_1,\mathbf u_2,\dots,\mathbf u_n$$ is a vector of the form
 
-$$a_1\mathbf u_1 + a_2\matthbf u_2 + \dots + a_n\mathbf u_n.$$
+$$a_1\mathbf u_1 + a_2\mathbf u_2 + \dots + a_n\mathbf u_n.$$
 
 The set of all such linear combinations is called the **span** of $$\{\mathbf u_1,\dots,\mathbf u_n\}$$ and is denoted by
 

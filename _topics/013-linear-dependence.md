@@ -138,7 +138,7 @@ spans $$\mathbb R^3$$ and is easily seen to be linearly dependent since
 
 $$1 (1,0,0) + 1 (0,1,0) + 0 (0,0,1) + (-1) (1,1,0) = 0.$$
 
-If we remove $$(1,1,0)$$ from the set, we still have a set of vectors which spans $$\mahbb{R}^3$$.
+If we remove $$(1,1,0)$$ from the set, we still have a set of vectors which spans $$\mathbb{R}^3$$.
 Alternatively we remove either $$(1,0,0)$$ or $$(0,1,0)$$ from the set, we still have a set of vectors which spans $$\mathbb{R}^3$$.
 However, if we remove $$(0,0,1)$$ we no longer span $$\mathbb{R}^3$$.
 This is because the vector we remove must be able to be written as a linear combination of the remaining vectors.

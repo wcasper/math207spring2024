@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Vector Spaces
+title: Subspaces
 ---
 
 A subspace of a vector space $$V$$ is a subset $$W\subseteq V$$ which is still a vector space using the same vector addition and scalar multiplication operations of $$W$$.

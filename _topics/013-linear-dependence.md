@@ -34,13 +34,13 @@ Is it linearly dependent or linearly independent?
 
 To check, we take an arbitrary linear combination
 
-$$a(x^2+2x) + b(x-1) + c(2x^2 + x + 3) + d(4x + 5) = (a+2c)x^2 + (b+c+4d)x + (-b+3c+5d).$$
+$$a(x^2+2x) + b(x-1) + c(2x^2 + x + 3) + d(4x + 5) = (a+2c)x^2 + (2a+b+c+4d)x + (-b+3c+5d).$$
 
 For this linear comobination to give us zero, we must have
 
 $$\begin{align}
 a + 2c &=0\\
-b + c + 4d &=0\\
+2a+b + c + 4d &=0\\
 -b + 3c + 5d &=0
 \end{align}$$
 
@@ -48,19 +48,21 @@ To get solutions of this system of equations, we form the augmented matrix
 
 $$\left[\begin{array}{ccccc}
 1 & 0 & 2 & 0 & 0\\
-0 & 1 & 1 & 4 & 0\\
+2 & 1 & 1 & 4 & 0\\
 0 &-1 & 3 & 5 & 0
 \end{array}\right]$$
 
 and row reduce it to get
 
 $$\left[\begin{array}{ccccc}
-1 & 0 & 0 & -18/4 & 0\\
-0 & 1 & 0 & 7/4   & 0\\
-0 & 0 & 1 & 9/4   & 0
+1 & 0 & 2 & 0 & 0\\
+0 & 1 &-3 & 0 & 0\\
+0 & 0 & 0 & 1 & 0
 \end{array}\right]$$
 
-This gives us multiple solutions, including $$a = 18$$, $$b=-7$$, $$c=-9$$ and $$d=4$$.
+The varibles for this system are the coefficients $$a,b,c$$ and $$d$$.
+Th free variable is the on whose column doesn't have a leading $$1$$ (pivot point), which is $$c$$.
+Taking $$c=1$$, we get the nontrivial solution $$a = -2$$, $$b = 3$$, $$c=1$$ and $$d=0$$.
 This means that the polynomials are *linearly dependent*.
 
 **Example:**  Consider the set of $$3\times 3$$ permutation matrices
@@ -89,26 +91,26 @@ Therefore the set of permutation matrices is linearly dependent.
 
 The set of polynomials 
 
-$$\{x^2 + 2x, x - 1, 2x^2 + x + 3\}$$
+$$\{x^2 + 2x, x - 1, 4x+5\}$$
 
 is linearly independent.  To see this, we take an arbitrary linear combination
 
-$$a(x^2+2x) + b(x-1) + c(2x^2 + x + 3) = (a+2c)x^2 + (b+c)x + (-b+3c).$$
+$$a(x^2+2x) + b(x-1) + c(4x+5) = ax^2 + (2a+b+4c)x + (-b+5c).$$
 
 For this to be zero, we must have 
 
 $$\begin{align}
-a + 2c &=0\\
-b + c &=0\\
--b + 3c &=0
+a  &=0\\
+2a+b + c &=0\\
+-b + 5c &=0
 \end{align}$$
 
 To get solutions of this system of equations, we form the augmented matrix
 
 $$\left[\begin{array}{cccc}
-1 & 0 & 2 & 0\\
-0 & 1 & 1 & 0\\
-0 &-1 & 3 & 0
+1 & 0 & 0 & 0\\
+2 & 1 & 1 & 0\\
+0 &-1 & 5 & 0
 \end{array}\right]$$
 
 and row reduce it to get

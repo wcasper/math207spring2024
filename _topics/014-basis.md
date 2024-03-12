@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Basis and Dimension
+title: Basis
 ---
 
 Armed with both the notion of a spanning set and linear independence, we have a real sense of what it means to have a minimal collection of elements of a vector space from which everything can be made.
@@ -21,17 +21,59 @@ Sometimes a basis can have infinitely many elements.
 **Definition:** A vector space is called **finite dimensional** if it has a finite basis.  If every basis has infinitely many vectors, the vector space is called **infinite dimensional**.
 
 
-**Theorem:**  If $$B$$ and $$C$$ are each a basis for the same vector space $$V$$, then there exists a bijection from $$B$$ to $$C$$.  In particular if $$B$$ or $$C$$ is finite, then both are and they both have the same number of elements.
+**Theorem:**  If $$B$$ is a spanning set of $$V$$ with $$n$$ elements and $$C$$ is a linearly independent subset of $$V$$, then $$C$$ has at most $$n$$ elements.
+
+**Proof:**
+
+Assume $$C$$ has more than $$n$$ elements.
+Then we may write $$B = \{\mathbf u_1,\dots,\mathbf u_n\}$$ and we can choose $$n+1$$ elements $$\{\mathbf v_1,\dots, \mathbf v_{n+1}\}$$ in $$C$$.
+Since $$B$$ is a spanning set, for ech $$k$$, we can write
+
+$$\mathbf v_k = c_{k1}\mathbf u_1+c_{k2}\mathbf u_2 + \dots c_{kn}\mathbf u_n.$$
+
+The matrix
+
+$$C = \left(\begin{array}{cccc}
+c_{11} & c_{21} & \dots & c_{(n+1)1}\\
+c_{12} & c_{22} & \dots & c_{(n+1)2}\\
+\vdots & \vdots & \ddots& \vdots\\
+c_{1n} & c_{2n} & \dots & c_{(n+1)n}
+\end{array}\right).$$
+
+has $$n$$ rows and $$n+1$$ columns, so it must have at least one column without a pivot point, corresponding to a free variable of the homogeneous system of equations
+
+$$C\vec x = \vec 0.$$
+
+Thus this system of equations has a nontrivial solution $$\vec x = (x_1,\dots, x_{n+1})$$.
+It follows that
+
+$$
+ x_1\left(\begin{array}{c} c_{11}\\c_{12}\\\vdots\\c_{1n}\end{array}\right)
++x_2\left(\begin{array}{c} c_{21}\\c_{22}\\\vdots\\c_{2n}\end{array}\right)
++x_{n+1}\left(\begin{array}{c} c_{(n+1)1}\\c_{(n+1)2}\\\vdots\\c_{(n+1)n}\end{array}\right) =
++\left(\begin{array}{c} 0\\0\\\vdots\\0\end{array}\right).
+$$
 
 
-**Definition:** If $$V$$ is a finite dimensional vector space, we call the size of a basis (and hence every basis) of $$V$$ the **dimension** of $$V$$, and denote it by $$\dim(V)$$.
+This means that
 
-**Theorem:**  If $$\dim(V) = n$$, then any set of $$n$$ linearly independent vectors is automatically a basis.  In other words, we get that they span for free!
+$$x_1c_{1j} + x_2c_{2j} + \dots + x_{n+1}c_{(n+1)j} = 0,$$
 
-**Theorem:**  If $$\dim(V) = n$$, then any set of $$n$$ spanning vectors is automatically a basis.  In other words, we get that they are linearly independent for free!
+and therefore
 
-**Theorem:**  If $$S$$ is a set of vectors in $$V$$ that spans $$V$$, then $$S$$ contains a basis for $$V$$.  In particular $$S$$ has at least $$n$$ elmements.
+$$
+x_1\mathbf v_1 + x_2\mathbf v_2 + \dots + x_{n+1}\mathbf v_{n+1} = (x_1c_{1j} + x_2c_{2j} + \dots + x_{n+1}c_{(n+1)j})\mathbf u_1 + \dots + x_1c_{1j} + x_2c_{2j} + \dots + x_{n+1}c_{(n+1)j}\mathbf u_n = \mathbf 0
+$$
 
-**Theorem:**  If $$S$$ is a set of vectors in $$V$$ that is linearly independent, then $$S$$ can be extended to a basis for $$V$$.  In particular $$S$$ has at most $$n$$ elmements.
+This says that $$\{\mathbf v_1,\dots, \mathbf v_{n+1}\}$$ are linearly dependent, which contradicts the assumption that $$C$$ is a basis.
+
+:black_square_button:
+
+**Corollary:** Suppose that $$B$$ is a basis for $$V$$ consisting of $$n$$ elements.  Then any set with less than $$n$$ elements cannot span the space.  Any set with more than $$n$$ elements cannot be linearly independent.
+
+**Theorem:**  If $$B$$ and $$C$$ are each a basis for the same vector space $$V$$ and one of them is finite, then both bases are finite and have the same size.
+
+**Proof:**  This follows from the previous theorem and the definition of a basis.
+:black_square_button:
 
 

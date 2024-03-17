@@ -22,7 +22,13 @@ Which of the following vectors is not in the span of $$\{1+x+x^2,x^3-1,x-1\}$$ ?
 * (C) $$3$$
 * (D) $$4x-4$$
 
+**Question 4:** True or false.
 
+The vectors
+
+$$\{(1,0),(1,1),(-1,2)\}$$
+
+are linearly independent.
 
 
 

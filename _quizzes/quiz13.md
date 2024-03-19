@@ -9,7 +9,7 @@ permalink: /quizzes/lecture13
 
 The set of vectors $$\{1,x,x^2\}$$ is a spanning set for the vector space
 
-$$V=\{p(x): p(x)\ \text{is a polynomial of degree $2$}\}.$$
+$$V=\{p(x): p(x)\ \text{is a polynomial of degree $\leq 2$}\}.$$
 
 **Question 2:**  True or false.
 

@@ -31,7 +31,7 @@ Carefully explain.
 
 # Problem 2
 
-For each of the following, determine whether the given set of vectors is a basis for the vector space $$P_n(\mathbb{R})$$ of polynomials of degree $$n$$ with real coefficients.
+For each of the following, determine whether the given set of vectors is a basis for the vector space $$P_n(\mathbb{R})$$ of polynomials of degree $$\leq n$$ with real coefficients.
 Carefully explain.
 
 * (A) $$n = 1$$: $$S = \{2 − 5x, 3x, 7 + x\}$$.

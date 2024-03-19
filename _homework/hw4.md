@@ -69,7 +69,7 @@ $$T: \mathbb{R}^n\rightarrow\mathbb{R}^m$$
 * (D) $$T(x_1, x_2, x_3) = x_1 + 5x_2 − 3x_3$$.
 * (E) $$T(x_1, x_2, x_3) = (x_3 − x_1 , −x_1 , 3x_1 + 2x_3, 0)$$.
 
-# Problem 7
+# Problem 6
 
 Carefully show that each of the following maps is a linear transformation, or else carefully explain why it is not.
 

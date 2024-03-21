@@ -50,7 +50,7 @@ For each of the following subspaces of $$\mathbb{R}^3$$, determine a basis for t
 
 # Problem 4
 
-The $$n$$'th Hermite polynomial $$h_n(x)$$ is a polynomial of degree $$n$$ which is a solution of the differential equation
+The $$n$$'th **monic Hermite polynomial** $$h_n(x)$$ is a polynomial of degree $$n$$, whose leading coefficient is $$1$$, which is a solution of the differential equation
 
 $$y'' - 2xy' = -2ny.$$
 

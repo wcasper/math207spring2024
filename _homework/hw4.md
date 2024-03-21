@@ -96,6 +96,6 @@ $$T(A) = A + A^T.$$
 
 * (F) $$T: C^2((-3,3))\rightarrow M_2(\mathbb{R})$$ given by
 
-$$T(f) = \left\lbrace\begin{array}{cc} f''(0) & f(0)-f'(1)\\ f'(2) & 0\end{array}\right).$$
+$$T(f) = \left\(\begin{array}{cc} f''(0) & f(0)-f'(1)\\ f'(2) & 0\end{array}\right).$$
 
 

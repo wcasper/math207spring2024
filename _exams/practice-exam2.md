@@ -38,6 +38,8 @@ is in the span of $$S$$.
 
 $$\left(\begin{array}{ccc} 1 &-2 & 5\\ 2 & -1 &11\\-1  & 1 &  2\end{array}\right)$$
 
+is not in the span.
+
 **Problem 3:**
 
 For each value of the set $$S$$, determine whether the set $$S$$ is linearly independent or dependent.

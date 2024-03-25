@@ -34,11 +34,11 @@ $$\left(\begin{array}{ccc} 6 &-7 & 1\\ -2 & 2 &11\\-3 & 7 & -8\end{array}\right)
 
 is in the span of $$S$$.
 
-* (B) Show that 
+* (B) Determine if
 
 $$\left(\begin{array}{ccc} 1 &-2 & 5\\ 2 & -1 &11\\-1  & 1 &  2\end{array}\right)$$
 
-is not in the span.
+is in the span.
 
 **Problem 3:**
 

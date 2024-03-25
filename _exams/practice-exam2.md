@@ -23,9 +23,9 @@ For each of the following, prove that the set is a vector space, or carefully ex
 Consider the set of matrices in $$M_3(\mathbb{R})$$
 
 $$S = \left\lbrace
-\left(\begin\array{ccc} 2 & 3 & 4\\ -2 & 1 & 3\\ 1 & 0 & -3\end{array}\right),\ \ 
-\left(\begin\array{ccc} 1 &-1 &-2\\  0 & 2 & 0\\ 3 & 1 & -3\end{array}\right),\ \ 
-\left(\begin\array{ccc} 2 & 6 & 1\\  0 &-3 & 8\\ 2 & 5 &  1\end{array}\right)
+\left(\begin{array}{ccc} 2 & 3 & 4\\ -2 & 1 & 3\\ 1 & 0 & -3\end{array}\right),\ \ 
+\left(\begin{array}{ccc} 1 &-1 &-2\\  0 & 2 & 0\\ 3 & 1 & -3\end{array}\right),\ \ 
+\left(\begin{array}{ccc} 2 & 6 & 1\\  0 &-3 & 8\\ 2 & 5 &  1\end{array}\right)
 \right\rbrace$$
 
 * (A) Show that 

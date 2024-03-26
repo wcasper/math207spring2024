@@ -53,7 +53,7 @@ $$S = \left\lbrace
 
 * (A) Show that 
 
-$$\left(\begin{array}{ccc} 6 &-7 & 1\\ -2 & 2 &11\\-3 & 7 & -8\end{array}\right)$$
+$$\left(\begin{array}{ccc} 6 & 7 & 1\\ -2 & 2 &11\\-3 & 7 & -8\end{array}\right)$$
 
 is in the span of $$S$$.
 
@@ -74,7 +74,7 @@ $$\left(\begin{array}{ccc} 6 & 7 & 1\\ -2 & 2 &11\\-3 & 7 & -8\end{array}\right)
 
 which gives us
 
-$$\left(\begin{array}{ccc} 6 &-7 & 1\\ -2 & 2 &11\\-3 & 7 & -8\end{array}\right)
+$$\left(\begin{array}{ccc} 6 & 7 & 1\\ -2 & 2 &11\\-3 & 7 & -8\end{array}\right)
   \left(\begin{array}{ccc} 2x+y+2z & 3x-y+6z & 4x-2y+z\\ -2x & x+2y-3z & 3x+8z\\ x+3y+2z & y+5z & -3x-3y+z\end{array}\right)$$
 
 This results in a system of equations

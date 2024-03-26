@@ -207,7 +207,7 @@ Therefore the matrices are linearly independent.
 * (B) The Wronskian is
 
 $$W(1 + x, 1-x, x^2 + x -3) = 
-= \det\left[1+x & 1-x & x^2 + x - 3\\ 1 & -1 & 2x+1\\ 0 & 0 & 2\right] = -4.$$
+= \det\left[\begin{array}{ccc} 1+x & 1-x & x^2 + x - 3\\ 1 & -1 & 2x+1\\ 0 & 0 & 2\end{array}\right] = -4.$$
 
 Therefore the polynomials are linearly independent.
 

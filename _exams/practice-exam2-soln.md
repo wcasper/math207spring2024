@@ -337,8 +337,8 @@ $$y'' + 3y' -4y = 0$$
 
 $$y'' + 3y' -4y =(e^{rt})'' + 3(e^{rt})' - 4e^{rt} = (r^2+3r-4)e^{rt}.$$
 
-Since this must be zero, we have $$r^2+3r-4=0$$, so $$r=4$$ or $$r=-1$$.
-This gives us the two solutions $$y=e^{4t}$$ and $$y=e^{-t}$$.
+Since this must be zero, we have $$r^2+3r-4=0$$, so $$r=-4$$ or $$r=1$$.
+This gives us the two solutions $$y=e^{-4t}$$ and $$y=e^{t}$$.
 
 * (B) We did this kind of thing in class.
 

@@ -67,14 +67,14 @@ is in the span.
 
 * (A) We write
 
-$$\left(\begin{array}{ccc} 6 & 7 & 1\\ -2 & 2 &11\\-3 & 7 & -8\end{array}\right)
+$$\left(\begin{array}{ccc} 6 & 7 & 1\\ -2 & 2 &11\\ 9 & 7 & -8\end{array}\right)
  x\left(\begin{array}{ccc} 2 & 3 & 4\\ -2 & 1 & 3\\ 1 & 0 & -3\end{array}\right)
 +y\left(\begin{array}{ccc} 1 &-1 &-2\\  0 & 2 & 0\\ 3 & 1 & -3\end{array}\right)
 +z\left(\begin{array}{ccc} 2 & 6 & 1\\  0 &-3 & 8\\ 2 & 5 &  1\end{array}\right),$$
 
 which gives us
 
-$$\left(\begin{array}{ccc} 6 & 7 & 1\\ -2 & 2 &11\\-3 & 7 & -8\end{array}\right)
+$$\left(\begin{array}{ccc} 6 & 7 & 1\\ -2 & 2 &11\\ 9 & 7 & -8\end{array}\right)
   \left(\begin{array}{ccc} 2x+y+2z & 3x-y+6z & 4x-2y+z\\ -2x & x+2y-3z & 3x+8z\\ x+3y+2z & y+5z & -3x-3y+z\end{array}\right)$$
 
 This results in a system of equations
@@ -86,7 +86,7 @@ $$\left\lbrace\begin{array}{cc}
 -2x     &=-2\\
 x+2y-3z &= 2\\
 3x+8z   &=11\\
-x+3y+2z &=-3\\
+x+3y+2z &= 9\\
 y+5z    &= 7\\
 -3x-3y+z &= -8
 \end{array}\right.$$
@@ -94,7 +94,7 @@ y+5z    &= 7\\
 Solving this system, we get $$x=1$$, $$y=2$$, and $$z=1$$.
 Thus 
 
-$$\left(\begin{array}{ccc} 6 & 7 & 1\\ -2 & 2 &11\\-3 & 7 & -8\end{array}\right)
+$$\left(\begin{array}{ccc} 6 & 7 & 1\\ -2 & 2 &11\\ 9 & 7 & -8\end{array}\right)
    \left(\begin{array}{ccc} 2 & 3 & 4\\ -2 & 1 & 3\\ 1 & 0 & -3\end{array}\right)
 + 2\left(\begin{array}{ccc} 1 &-1 &-2\\  0 & 2 & 0\\ 3 & 1 & -3\end{array}\right)
 +  \left(\begin{array}{ccc} 2 & 6 & 1\\  0 &-3 & 8\\ 2 & 5 &  1\end{array}\right),$$
